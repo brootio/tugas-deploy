@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Deploy Github Pages</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f6f8fa;
+            color: #24292e;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            text-align: center;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            border: 1px solid #e1e4e8;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            max-width: 500px;
+            width: 90%;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #0366d6;
+        }
+        p {
+            color: #586069;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .status-badge {
+            display: inline-block;
+            background-color: #dcffe4;
+            color: #1a7f37;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 0.85rem;
+            color: #6a737d;
+            border-top: 1px solid #eaecef;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Tugas Deploy Github Pages</h1>
+        <p>Kumpulan link github.io yang sudah ada file index.html nya.</p>
+        
+        <span class="status-badge">✓ Berhasil Dideploy</span>
+
+        <footer>
+            <p>Dibuat untuk memenuhi tugas praktikum/perkuliahan.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
